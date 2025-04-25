@@ -20,6 +20,9 @@ Make sure you have the following installed and configured:
 4. **Start the Android emulator (e.g., Pixel 3A):**
    ```bash
    emulator -avd Pixel3A
+5. **Add apk file to this dir:**
+   ```bash
+    /src/apps/android/androidAPP.apk
 5. Run the tests using Maven:
     ```bash
     mvn clean verify
